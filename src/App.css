@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.show {
+  display: block;
+  transition: 800ms;
+  opacity: 1;
+}
+
+.show.active {
+  transform: translateY(100px) scale(0) rotateY(180deg);
+  opacity: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f2f4f3;
+  background: #3474e6
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.navbar h1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.container-buttons button {
+  display: flex;
+  justify-content: center;
+  margin-right: 180px;
+  height: 60px;
+  background-color: #49111C;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 10;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 10px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.container-buttons button:disabled {
+  pointer-events: none;
+}
+
+.container-buttons button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.container-buttons button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.main-container h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.inout-container h1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.add-out-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.resturants-section .resturants-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: rgb(72, 154, 181);
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  max-width: fit-content;
+}
+
+.resturants-nothing {
+  align-items: center;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+input[type=text], input[type=time], input[type=email], input[type=password]{
+  background-color: rgb(72, 154, 181);
+  margin-top: 5px;
+}
+
+input[type=submit]{
+  margin: 10px 150px;
+  height: 60px;
+  background-color: #49111C;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 10;
+  min-height: 50px;
+  min-width: 0;
+  outline: none;
+  padding: 10px 10px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  touch-action: manipulation;
+  will-change: transform;
+}
